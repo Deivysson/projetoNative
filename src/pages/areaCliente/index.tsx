@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import { useRoute } from '@react-navigation/native';
-import { AreaScreenRouteProp } from '../../src/types'
+import { AreaScreenRouteProp } from '../../types'
 
 export default function Area() {
   const route = useRoute<AreaScreenRouteProp>(); // Usando o tipo definido
