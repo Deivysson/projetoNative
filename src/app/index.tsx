@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { View, Text, TextInput, Button, Image, StyleSheet } from 'react-native';
+import { View, Text, TextInput, Button, StyleSheet } from 'react-native';
 import axios from 'axios';
 import { useNavigation } from '@react-navigation/native';
 import { LoginScreenNavigationProp } from '../types' // Atualize o caminho conforme necessário
